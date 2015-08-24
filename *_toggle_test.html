@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Sizes of Our Solar System">
+   <meta name="author" content="Elli Park, Pratt '14">
+
+   <title>Sizes of Our Solar System</title>
+   <link rel="shortcut icon" href="favicon.gif" type="image"/>
+   <link rel="stylesheet" href="*_toggle.css" type="text/css"/>
+   <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+
+
+
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+   <script type="text/javascript" src="svg-pan-zoom.js"></script>
+   <script src="jquery.ui.touch-punch.min.js"></script>
+
+  </head>
+
+  <body onload="scrollTo(7880,8790); resizeBy(50,50);">
+
+    <div class = "text">
+
+    	<a href="*.html" style = "color:red;">Toggle</a> <p> size scale = 1 : 1,500,000,000 &nbsp;&nbsp;&nbsp; distance scale = 1 : 15,000,000,000,000 </p>
+
+    </div>
+
+    <script>
+      $(function() {
+         $( "#wrapper" ).draggable();
+      });
+    </script>
+
+    <div id= "wrapper">
+
+          <object class = "sun" src = "parasol.svg" style = "width: 15000px; height: 15000px;">
+
+          <script>
+          $(".sun").mouseenter(function () {
+            $(this).attr("src", "parasol_hover.svg");
+          }).mouseleave(function () {
+           $(this).attr("src", "parasol.svg");
+           });
+          </script>
+
+    	   <object class = "mercury" src = "peppercorn.svg" style = "width: 229px; height: 229px;">
+
+          <script>
+           $(".mercury").mouseenter(function () {
+           $(this).attr("src", "peppercorn_hover.svg");
+           }).mouseleave(function () {
+            $(this).attr("src", "peppercorn.svg");
+           });
+          </script>
+
+        	<object class = "venus" src = "cherry.svg" style = "width:470px; height: 470px;">
+    	
+          <script>
+            $(".venus").mouseenter(function () {
+            $(this).attr("src", "cherry_hover.svg");
+           }).mouseleave(function () {
+            $(this).attr("src", "cherry.svg");
+           });
+         </script>
+
+          <object class =  "earth" src = "cherrytomato.svg" style = "width: 500px; height: 500px">
+
+          <script>
+            $(".earth").mouseenter(function () {
+            $(this).attr("src", "cherrytomato_hover.svg");
+           }).mouseleave(function () {
+            $(this).attr("src", "cherrytomato.svg");
+           });
+          </script>
+
+        	<object class = "mars" src = "blueberry.svg" style = "width: 318px; height: 318px;">
+
+          <script>
+            $(".mars").mouseenter(function () {
+            $(this).attr("src", "blueberry_hover.svg");
+           }).mouseleave(function () {
+            $(this).attr("src", "blueberry.svg");
+           });
+          </script>
+
+         <object class ="jupiter" src="watermelon.svg" style = "width: 6732px; height: 6732px;">
+
+          <script>
+           $(".jupiter").mouseenter(function () {
+           $(this).attr("src", "watermelon_hover.svg");
+           }).mouseleave(function () {
+           $(this).attr("src", "watermelon.svg");
+          });
+          </script>
+
+          <object class = "saturn" src = "grapefruit.svg" style = "width: 5482px; height: 5482px;">
+
+          <script>
+           $(".saturn").mouseenter(function () {
+           $(this).attr("src", "grapefruit_hover.svg");
+           }).mouseleave(function () {
+           $(this).attr("src", "grapefruit.svg");
+           });
+          </script>
+
+      		<object class = "uranus" src = "apple.svg" style = "width: 2210px; height: 2210px">
+
+          <script>
+          $(".uranus").mouseenter(function () {
+          $(this).attr("src", "apple_hover.svg");
+          }).mouseleave(function () {
+          $(this).attr("src", "apple.svg");
+          });
+          </script>
+
+          <object class = "neptune" src = "lime.svg" style = "width: 2139px; height: 2139px;">
+
+          <script>
+          $(".neptune").mouseenter(function () {
+            $(this).attr("src", "lime_hover.svg");
+          }).mouseleave(function () {
+            $(this).attr("src", "lime.svg");
+          });
+          </script>
+
+    </div>
+
+   </body>
+
+</html>

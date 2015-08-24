@@ -1,0 +1,121 @@
+body {
+    background-repeat: repeat;
+    background-image: url("background.svg");
+    cursor: auto;
+    z-index: -10;
+}
+
+.text {
+    position: fixed;
+    font-family: 'menschmensch_bold'; 
+    font-size: 1.2em; 
+    letter-spacing: .1em;
+    line-height: .4em;
+    color: #ffffff;
+    padding-top: 1%;
+    padding-left: 1%;
+    z-index: 10;
+
+}
+
+
+#wrapper { 
+    position: relative;
+}
+
+#sunNormal{
+    position: absolute;
+    margin-left: 9090px;
+    margin-top: 470px;    
+}
+
+#sunHover{
+    position: absolute;
+    margin-left: 9089.25px;
+    margin-top: 472.58px;    
+}
+
+
+#mercuryNormal {
+    position: absolute;  
+    margin-left: 9100px;
+    margin-top: 8000px;
+    }
+
+#mercuryHover {
+    position: absolute;  
+    margin-left: 9099.25px;
+    margin-top: 8002.58px;
+    }
+
+#venusNormal {
+    position: absolute;  
+    margin-left: 24200px;
+    margin-top: 5700px;
+    }
+
+#venusHover {
+    position: absolute;  
+    margin-left: 24199.25px;
+    margin-top: 5702.63px;
+    }
+
+#earthNormal {
+    position: absolute; 
+    margin-left: 8300px;
+    margin-top: 9000px;
+    
+}
+
+#earhHover{
+    position: absolute; 
+    margin-left: 8300px;
+    margin-top: 9002.5px;
+    
+}
+
+.mars {
+    position: absolute;  
+    margin-left: 26300px;
+    margin-top: 6700px;
+    }
+
+.jupiter {
+    position: absolute; 
+    margin-left: 26800px;
+    margin-top: 5000px; 
+    
+}
+
+.saturn {
+    position: absolute; 
+    margin-left: 1800px; 
+    margin-top: 8300px;
+    
+}
+
+
+.uranus {
+    position: absolute;  
+    margin-left: 35800px;
+    margin-top: 9800px;
+    padding-right: 900px;
+    }
+
+.neptune {
+    position: absolute;  
+    margin-top: 15000px;
+    padding-left: 900px;
+    padding-bottom: 900px;
+    }
+
+.toggle {
+    position: fixed;
+    font-family: 'menschmensch_bold'; 
+    font-size: 1.2em; 
+    letter-spacing: .1em;
+    color: #ffffff;
+    padding-top: 1%;
+    padding-left: 1%;
+
+}
