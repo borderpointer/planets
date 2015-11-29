@@ -1,3 +1,3 @@
 # Planets
 ### Demo:
-http://mysite.pratt.edu/~epark12/touch/*.html
+http://bit.ly/1QMUi0e
